@@ -1,0 +1,31 @@
+a {
+    color:gray; text-decoration: none;
+}
+h1 {
+    font-size: 47px; text-align: center;
+    border-bottom: 2px solid black;
+    margin-bottom: 0px; 
+    padding-bottom: 12px;
+}
+.grid ul {
+    border-right: 2px solid black;
+    padding-left: 20px; padding-top: 10px;
+    margin-left: 3px;
+    margin-top: 1px;
+    width: 150px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 175px 1fr;
+}
+#busan1 {
+    padding: 50px; text-align: center;
+}
+@media(max-width:800px) {
+    .grid {
+    display: block;
+    }
+    .grid ul {
+        border-right:none; text-align: center; width: 100%;
+    }
+}
